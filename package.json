@@ -1,0 +1,16 @@
+{
+  "name": "create-files-by-bemjson",
+  "version": "1.0.0",
+  "description": "Creates css files by BEMJSON declaration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vladimir Grinenko",
+  "license": "MIT",
+  "dependencies": {
+    "bem": "^0.9.0",
+    "bemjson-to-deps": "git://github.com/tadatuta/bemjson-to-deps.git#3a72c5919f95a38106ebea729bb6a4808e7f8406",
+    "mkdirp": "^0.5.0"
+  }
+}
